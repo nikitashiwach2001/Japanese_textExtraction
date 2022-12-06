@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1240,2607" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/ocr" xmlns:p1="http://schemas.uipath.com/workflow/activities/document-processing-contracts/results" xmlns:p2="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:p3="http://schemas.uipath.com/workflow/activities/intelligentocr/extraction" xmlns:p4="http://schemas.uipath.com/workflow/activities/document-processing-contracts/dom" xmlns:p5="http://schemas.uipath.com/workflow/activities/document-processing-contracts/extraction" xmlns:p6="http://schemas.uipath.com/workflow/activities/document-processing-contracts/taxonomy" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:sd2="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ug="clr-namespace:UiPath.GoogleVision;assembly=UiPath.GoogleVision" xmlns:uga="clr-namespace:UiPath.GoogleVision.Activities;assembly=UiPath.GoogleVision.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:upap="clr-namespace:UiPath.PDF.Activities.PDF;assembly=UiPath.PDF.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1240,2640" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/ocr" xmlns:p1="http://schemas.uipath.com/workflow/activities/document-processing-contracts/results" xmlns:p2="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:p3="http://schemas.uipath.com/workflow/activities/intelligentocr/extraction" xmlns:p4="http://schemas.uipath.com/workflow/activities/document-processing-contracts/dom" xmlns:p5="http://schemas.uipath.com/workflow/activities/document-processing-contracts/extraction" xmlns:p6="http://schemas.uipath.com/workflow/activities/document-processing-contracts/taxonomy" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:sd2="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ug="clr-namespace:UiPath.GoogleVision;assembly=UiPath.GoogleVision" xmlns:uga="clr-namespace:UiPath.GoogleVision.Activities;assembly=UiPath.GoogleVision.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:upap="clr-namespace:UiPath.PDF.Activities.PDF;assembly=UiPath.PDF.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="64">
       <x:String>System.Activities</x:String>
@@ -139,7 +139,7 @@
       <AssemblyReference>UiPath.Excel</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="716,2542" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="716,2575" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="ExtractedData" />
       <Variable x:TypeArguments="x:String" Name="Data" />
@@ -207,7 +207,7 @@
         </sap:WorkflowViewStateService.ViewState>
       </uga:GoogleVisionScope>
     </Sequence>
-    <Sequence sap:VirtualizedContainerService.HintSize="654,728" sap2010:WorkflowViewState.IdRef="Sequence_8">
+    <Sequence sap:VirtualizedContainerService.HintSize="654,761" sap2010:WorkflowViewState.IdRef="Sequence_8">
       <Sequence.Variables>
         <Variable x:TypeArguments="scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))" Name="UiPathOcrResult" />
         <Variable x:TypeArguments="x:String" Name="UipathOcrText" />
@@ -227,10 +227,10 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <upap:ExportPDFPageAsImage DisplayName="Export PDF Page As Image" FileName="japanese.pdf" sap:VirtualizedContainerService.HintSize="338,97" sap2010:WorkflowViewState.IdRef="ExportPDFPageAsImage_1" ImageDpi="150" OutputFileName="Hindi.png" PageNumber="1" />
-      <ui:LoadImage DisplayName="Load Image" FileName="Hindi.png" sap:VirtualizedContainerService.HintSize="338,61" sap2010:WorkflowViewState.IdRef="LoadImage_1" Image="[img]">
+      <ui:LoadImage DisplayName="Load Image" FileName="JapaneseText.png" sap:VirtualizedContainerService.HintSize="338,94" sap2010:WorkflowViewState.IdRef="LoadImage_1" Image="[img]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
