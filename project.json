@@ -1,24 +1,27 @@
 {
-  "name": "PDF_Scraping",
-  "description": "Blank Process",
+  "name": "Robot3",
+  "description": "Email Automation",
   "main": "Main.xaml",
   "dependencies": {
+    "Azure.AI.TextAnalytics": "[5.2.0]",
+    "UiPath.Box.Activities": "[1.2.2]",
+    "UiPath.DocumentUnderstanding.Activities": "[1.0.6]",
     "UiPath.DocumentUnderstanding.ML.Activities": "[1.17.0]",
-    "UiPath.Excel.Activities": "[2.16.0]",
-    "UiPath.GoogleVision.Activities": "[1.4.0]",
+    "UiPath.Excel.Activities": "[2.16.1]",
     "UiPath.IntelligentOCR.Activities": "[6.5.0]",
-    "UiPath.Mail.Activities": "[1.18.1]",
-    "UiPath.OCR.Activities": "[3.11.0]",
-    "UiPath.PDF.Activities": "[3.10.1]",
-    "UiPath.System.Activities": "[22.10.3]",
-    "UiPath.Testing.Activities": "[22.10.0]",
-    "UiPath.UIAutomation.Activities": "[22.10.4]",
-    "UiPath.Vision": "[3.6.0]"
+    "UiPath.Mail.Activities": "[1.18.2]",
+    "UiPath.MLServices.Activities": "[2.0.0]",
+    "UiPath.OCR.Activities": "[3.12.0]",
+    "UiPath.OmniPage.Activities": "[1.13.0]",
+    "UiPath.OmniPage.Bundle": "[1.2.0]",
+    "UiPath.PDF.Activities": "[3.11.0]",
+    "UiPath.System.Activities": "[22.10.4]",
+    "UiPath.UIAutomation.Activities": "[22.10.4]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "22.10.3.0",
+  "studioVersion": "22.4.3.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
@@ -54,7 +57,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "e8f6c245-c5da-413c-a691-59f0dbe06e1a",
+      "uniqueId": "e41dcab1-3ac9-4a28-9579-0363cbdf7d5e",
       "input": [],
       "output": []
     }

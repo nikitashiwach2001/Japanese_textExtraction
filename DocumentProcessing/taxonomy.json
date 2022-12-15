@@ -2,19 +2,19 @@
   "DataContractVersion": "1.1",
   "DocumentTypes": [
     {
-      "DocumentTypeId": "NoGroup.NoCategory.Handwritten",
-      "Group": "",
-      "Category": "",
-      "Name": "Handwritten",
+      "DocumentTypeId": "Invoices.ML.PDF",
+      "Group": "Invoices",
+      "Category": "ML",
+      "Name": "PDF",
       "OptionalUniqueIdentifier": "",
       "TypeField": {
-        "FieldId": "NoGroup.NoCategory.Handwritten.DocumentType",
+        "FieldId": "Invoices.ML.PDF.DocumentType",
         "FieldName": "Document Type"
       },
       "Fields": [
         {
-          "FieldId": "NoGroup.NoCategory.Handwritten.Header1",
-          "FieldName": "Header1 ",
+          "FieldId": "Invoices.ML.PDF.InvoiceNumber",
+          "FieldName": "InvoiceNumber",
           "IsMultiValue": false,
           "Type": "Text",
           "DeriveFieldsFormat": "",
@@ -27,14 +27,161 @@
             },
             {
               "Key": "Hotkey",
-              "Value": "h"
+              "Value": "v"
             }
-          ]
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "Invoices.ML.PDF.TotalAmount",
+          "FieldName": "TotalAmount",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "Invoices.ML.PDF.Date",
+          "FieldName": "Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "JapaneseInvoice.AI.JapanesePdf",
+      "Group": "JapaneseInvoice",
+      "Category": "AI",
+      "Name": "JapanesePdf",
+      "OptionalUniqueIdentifier": "und",
+      "TypeField": {
+        "FieldId": "JapaneseInvoice.AI.JapanesePdf.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "JapaneseInvoice.AI.JapanesePdf.Receipt",
+          "FieldName": "Receipt",
+          "IsMultiValue": true,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "JapaneseInvoice.AI.JapanesePdf.sum",
+          "FieldName": "sum",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "JapaneseInvoice.AI.JapanesePdf.Date",
+          "FieldName": "Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "JapaneseInvoice.AI.JapanesePdf.BillingAddress",
+          "FieldName": "Billing Address",
+          "IsMultiValue": true,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#20389d"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null
         }
       ]
     }
   ],
-  "Groups": [],
+  "Groups": [
+    {
+      "Name": "Invoices",
+      "Categories": [
+        "ML"
+      ]
+    },
+    {
+      "Name": "JapaneseInvoice",
+      "Categories": [
+        "AI"
+      ]
+    }
+  ],
   "SupportedLanguages": [
     {
       "Name": "Undetermined Language",

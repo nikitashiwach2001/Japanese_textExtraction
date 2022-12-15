@@ -1,0 +1,5 @@
+Email send successfully.
+
+Regards,
+Email Automation
+{0}
