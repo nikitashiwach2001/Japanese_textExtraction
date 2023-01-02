@@ -79,7 +79,7 @@
       "Group": "JapaneseInvoice",
       "Category": "AI",
       "Name": "JapanesePdf",
-      "OptionalUniqueIdentifier": "und",
+      "OptionalUniqueIdentifier": "JPY",
       "TypeField": {
         "FieldId": "JapaneseInvoice.AI.JapanesePdf.DocumentType",
         "FieldName": "Document Type"
@@ -87,8 +87,8 @@
       "Fields": [
         {
           "FieldId": "JapaneseInvoice.AI.JapanesePdf.Receipt",
-          "FieldName": "Receipt",
-          "IsMultiValue": true,
+          "FieldName": "Invoice Number",
+          "IsMultiValue": false,
           "Type": "Number",
           "DeriveFieldsFormat": "",
           "Components": [],
@@ -107,7 +107,7 @@
         },
         {
           "FieldId": "JapaneseInvoice.AI.JapanesePdf.sum",
-          "FieldName": "sum",
+          "FieldName": "Total Amount",
           "IsMultiValue": false,
           "Type": "Number",
           "DeriveFieldsFormat": "",
@@ -127,7 +127,7 @@
         },
         {
           "FieldId": "JapaneseInvoice.AI.JapanesePdf.Date",
-          "FieldName": "Date",
+          "FieldName": "Invoice Date",
           "IsMultiValue": false,
           "Type": "Date",
           "DeriveFieldsFormat": "",
@@ -161,6 +161,46 @@
             {
               "Key": "Hotkey",
               "Value": "l"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "JapaneseInvoice.AI.JapanesePdf.ShippingAddress",
+          "FieldName": "Shipping Address",
+          "IsMultiValue": true,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fcd98f"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "JapaneseInvoice.AI.JapanesePdf.CustomerPurchaseOrderNumber",
+          "FieldName": "Customer Purchase Order Number",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b37710"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
             }
           ],
           "RuleSet": null

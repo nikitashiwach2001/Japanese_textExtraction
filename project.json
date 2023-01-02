@@ -1,14 +1,16 @@
 {
   "name": "Robot3",
   "description": "Email Automation",
-  "main": "Main.xaml",
+  "main": "Flowchart.xaml",
   "dependencies": {
     "Azure.AI.TextAnalytics": "[5.2.0]",
+    "ClosedXML": "[0.97.0]",
+    "UiPath": "[22.10.49.23]",
     "UiPath.Box.Activities": "[1.2.2]",
     "UiPath.DocumentUnderstanding.Activities": "[1.0.6]",
-    "UiPath.DocumentUnderstanding.ML.Activities": "[1.17.0]",
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.18.0]",
     "UiPath.Excel.Activities": "[2.16.1]",
-    "UiPath.IntelligentOCR.Activities": "[6.5.0]",
+    "UiPath.IntelligentOCR.Activities": "[6.6.0]",
     "UiPath.Mail.Activities": "[1.18.2]",
     "UiPath.MLServices.Activities": "[2.0.0]",
     "UiPath.OCR.Activities": "[3.12.0]",
@@ -22,7 +24,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.4.3.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.10",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -58,6 +60,12 @@
     {
       "filePath": "Main.xaml",
       "uniqueId": "e41dcab1-3ac9-4a28-9579-0363cbdf7d5e",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Flowchart.xaml",
+      "uniqueId": "c3550d86-ae06-425c-946e-49045cae8d0d",
       "input": [],
       "output": []
     }
