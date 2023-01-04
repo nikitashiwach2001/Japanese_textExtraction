@@ -71,6 +71,66 @@
             }
           ],
           "RuleSet": null
+        },
+        {
+          "FieldId": "Invoices.ML.PDF.BillingAddress",
+          "FieldName": "BillingAddress",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#20389d"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "Invoices.ML.PDF.ShippingAddress",
+          "FieldName": "ShippingAddress",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b34692"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "Invoices.ML.PDF.Name",
+          "FieldName": "Name",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#f527ca"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null
         }
       ]
     },
