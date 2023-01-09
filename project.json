@@ -4,6 +4,7 @@
   "main": "Flowchart.xaml",
   "dependencies": {
     "UiPath.ComputerVision.LocalServer": "[22.7.2]",
+    "UiPath.Database.Activities": "[1.7.1]",
     "UiPath.DocumentUnderstanding.ML.Activities": "[1.18.0]",
     "UiPath.Excel.Activities": "[2.16.1]",
     "UiPath.IntelligentOCR.Activities": "[6.5.0]",
