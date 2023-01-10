@@ -16,7 +16,8 @@
     "UiPath.PDF.Activities": "[3.11.0]",
     "UiPath.System.Activities": "[22.10.4]",
     "UiPath.SystemCenter.Activities": "[1.0.7]",
-    "UiPath.UIAutomation.Activities": "[22.10.4]"
+    "UiPath.UIAutomation.Activities": "[22.10.4]",
+    "UiPath.WebAPI.Activities": "[1.13.3]"
   },
   "webServices": [],
   "entitiesStores": [],
