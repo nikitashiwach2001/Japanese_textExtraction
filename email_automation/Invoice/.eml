@@ -71,33 +71,33 @@ Folder: INBOX
 Sender: Utkarsh Pandey <pandeyutkarsh2407@gmail.com>
 HtmlBody: <div dir="auto"></div>
 Subject: 
-Content-Type: multipart/mixed; boundary="=-/cXIJbCQHqt+rNX1OFXavw=="
+Content-Type: multipart/mixed; boundary="=-fuNyh3sBOmB4BGoTz0RAwg=="
 
---=-/cXIJbCQHqt+rNX1OFXavw==
-Content-Type: multipart/alternative; boundary="=-flpAA+m0YYX8DPeNBEs54w=="
+--=-fuNyh3sBOmB4BGoTz0RAwg==
+Content-Type: multipart/alternative; boundary="=-7CCR/6uvyvPkxD9eg2pn5g=="
 
---=-flpAA+m0YYX8DPeNBEs54w==
+--=-7CCR/6uvyvPkxD9eg2pn5g==
 Content-Type: text/html; charset=us-ascii
 
 <div dir="auto"></div>
 
---=-flpAA+m0YYX8DPeNBEs54w==
+--=-7CCR/6uvyvPkxD9eg2pn5g==
 Content-Type: text/plain; charset=UTF-8
 Content-Transfer-Encoding: base64
-Content-Id: <a247f898-8c4e-40b2-97db-027f5f3136ea>
+Content-Id: <d4752041-c8da-423b-8a55-ff008559c2cf>
 
 DQo=
 
---=-flpAA+m0YYX8DPeNBEs54w==
+--=-7CCR/6uvyvPkxD9eg2pn5g==
 Content-Type: text/html; charset=UTF-8
 Content-Transfer-Encoding: base64
-Content-Id: <d38f3193-a918-4dd2-8675-0add33c1e6cc>
+Content-Id: <81e6ca44-431c-44ff-9d57-cfd03b779720>
 
 PGRpdiBkaXI9ImF1dG8iPjwvZGl2Pg0K
 
---=-flpAA+m0YYX8DPeNBEs54w==--
+--=-7CCR/6uvyvPkxD9eg2pn5g==--
 
---=-/cXIJbCQHqt+rNX1OFXavw==
+--=-fuNyh3sBOmB4BGoTz0RAwg==
 Content-Type: application/pdf; name=Current_invoice.pdf
 Content-Disposition: attachment; filename=Current_invoice.pdf
 Content-Transfer-Encoding: base64
@@ -340,4 +340,4 @@ Ci9UeXBlIC9YUmVmCi9XIFsxIDIgMl0KL0ZpbHRlciAvRmxhdGVEZWNvZGUKL0luZGV4IFswIDEw
 XQovTGVuZ3RoIDQ2Cj4+CnN0cmVhbQp4nGNgYPj/n9HoEwMDo9FOEGEBJJi+gIijQIKBH0gYHgES
 xsogIouBAQD/Tgg1CmVuZHN0cmVhbQplbmRvYmoKc3RhcnR4cmVmCjEzMTYyCiUlRU9GCg==
 
---=-/cXIJbCQHqt+rNX1OFXavw==--
+--=-fuNyh3sBOmB4BGoTz0RAwg==--
